@@ -1,6 +1,6 @@
 <?php
 
-$config = fopen("config.cfg", "w+") or exit("Unable to open file.");
+$config = fopen("../scripts/config.cfg", "w+") or exit("Unable to open file.");
 //echo fwrite($config, "Aquaponalog Configuration File \r\n\r\n");
 //echo fwrite($config, "[System] \r\n");
 echo fwrite($config, "SQL_Username = " . $_POST[sqluser] . " \r\n");
@@ -30,6 +30,6 @@ if (!mysql_query("CREATE DATABASE aquaponalog",$db))
 
 mysql_close($db);
 
-header('Location: http://localhost/setup.php');
+header('Location: http://localhost/pages/setup.php');
 
 ?>
