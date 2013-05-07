@@ -13,9 +13,9 @@ echo "<!DOCTYPE html>
                 <nav>
                     <ul>
                         <li><a href=\"../index.html\">Home</a>
-                        <li><a href=\"../data.php\">Data</a>
+                        <li><a href=\"../pages/data.php\">Data</a>
                         <li><a href=\"../pages/setup.php\">Setup</a>
-                        <li><a href=\"../about.html\">About</a>
+                        <li><a href=\"../pages/about.html\">About</a>
                     </ul>
                 </nav>
             </header>
